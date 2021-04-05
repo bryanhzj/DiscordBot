@@ -107,27 +107,6 @@ async def play(ctx, url):
 async def stop(ctx):
     voice_client = ctx.message.guild.voice_client
     await voice_client.disconnect()
-    
-# @client.event
-# async def on_message(message):
-#   if message.author == client.user:
-#     return
-
-#   # if message.content.startswith('?ping'):
-#   #   ping(ctx)
-
-#   if message.content.startswith('$hello'):
-#     await message.channel.send('Hello!')
-
-#   # else:
-#   #   await message.channel.send("nice!", tts=True)
-#   await client.process_commands(message)
-
-
-
-
-
 
 # keep_alive()
-# client.run(os.getenv('TOKEN'))
-client.run('NzkyOTQ4MzQwMTk4MzQyNjg3.X-lIsA.fXkXoIOqggQFLJPvZNpEQYrZAFQ')
+client.run(os.getenv('TOKEN'))
